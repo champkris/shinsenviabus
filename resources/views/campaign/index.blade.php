@@ -51,13 +51,43 @@
 
         .header h1 {
             font-size: 2.5em;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
 
         .header p {
-            font-size: 1.1em;
+            font-size: 1em;
             opacity: 0.95;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .header .activity-name {
+            font-size: 1.3em;
+            font-weight: 700;
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            line-height: 1.5;
+        }
+
+        .header .prize-info {
+            font-size: 1.05em;
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            line-height: 1.7;
+        }
+
+        .header .terms-info {
+            font-size: 0.85em;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            opacity: 0.9;
+            line-height: 1.6;
         }
 
         .form-container {
@@ -195,6 +225,8 @@
             border-left: 4px solid #ff6b35;
             padding: 15px;
             margin-bottom: 25px;
+            margin-left: -20px;
+            margin-right: -20px;
             border-radius: 5px;
         }
 
@@ -212,13 +244,41 @@
 <body>
     <div class="container">
         <div class="logo-section">
-            <img src="{{ asset('images/hero-shinsen (3).jpg') }}" alt="ShinSen Orange Juice">
+            <img src="{{ asset('images/hero-shinsen (3).jpg') }}" alt="ShinSen Orange Juice" style="max-width: 66.67%;">
             <img src="{{ asset('images/ShinsenBanner.png') }}" alt="ShinSen Campaign Banner" style="margin-top: 15px;">
         </div>
 
         <div class="header">
-            <h1>ชินเซ็น น้ำส้ม</h1>
-            <p>ร่วมลุ้นรับของรางวัล!</p>
+            <h1>#โสดโปรดShinSen</h1>
+
+            <p>น้ำผลไม้แท้ตรา ShinSen ชวนคุณร่วมสนุกในเดือนคนโสด<br>
+            (11.11 = วันคนโสด) กับกิจกรรม</p>
+
+            <div class="activity-name">
+                "โสดดูแลตัวเองแบบดับเบิ้ลด้วย ShinSen C สูง"
+            </div>
+
+            <p style="margin-bottom: 12px;">
+                <strong>วิธีร่วมสนุก:</strong><br>
+                เพียงเดินไป 7-Eleven, Lotus's หรือ Lotus's go fresh<br>
+                หาซื้อ ShinSen น้ำส้มแท้ 100% หรือน้ำส้มยูซุแท้ 100% จำนวน 2 ขวด<br>
+                ถ่ายภาพคู่กับใบเสร็จ และ Submit ลงในฟอร์มด้านล่างนี้
+            </p>
+            <p>
+                <strong>รางวัล:</strong><br>
+                ลุ้นรับน้ำส้ม 6 ขวดและน้ำส้มยูซุ 5 ขวด<br>
+                รวม 11 ขวด จำนวน 20 รางวัล<br>
+                เอาไปดื่มดูแลตัวเองฟิน ๆ
+            </p>
+
+            <div class="terms-info">
+                <p>*เงื่อนไขเป็นไปตามที่บริษัทกำหนด</p>
+                <p style="margin-top: 10px;">
+                    หมดเขต 20 พฤศจิกายน 2568 นี้<br>
+                    ประกาศผลผู้โชคดี 21 พฤศจิกายน 2568<br>
+                    บนแอปพลิเคชัน ViaBus และทาง เฟซบุ๊กเพจ ShinSen น้ำผลไม้แท้ เพื่อสุขภาพ
+                </p>
+            </div>
         </div>
 
         <div class="form-container">
