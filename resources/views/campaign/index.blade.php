@@ -111,6 +111,7 @@
             padding: 15px;
             border-radius: 10px;
             margin-bottom: 20px;
+            text-align: center;
             animation: slideIn 0.5s ease-out;
         }
 
