@@ -38,6 +38,6 @@ class CampaignController extends Controller
             'uploaded_files' => $uploadedFilePaths,
         ]);
 
-        return redirect()->back()->with('success', 'ส่งข้อมูลเรียบร้อยแล้ว! ขอบคุณที่เข้าร่วมแคมเปญชินเซ็น น้ำส้ม');
+        return redirect()->back()->with('success', 'ส่งข้อมูลเรียบร้อยแล้ว! ขอบคุณที่เข้าร่วมแคมเปญ Shinsen');
     }
 }
