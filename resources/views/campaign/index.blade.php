@@ -257,7 +257,7 @@
     <div class="container">
         <div class="logo-section">
             <img src="{{ asset('images/hero-shinsen (3).jpg') }}" alt="ShinSen Orange Juice" style="max-width: 66.67%;">
-            <img src="{{ asset('images/ShinsenBanner.png') }}" alt="ShinSen Campaign Banner" style="margin-top: 15px;">
+            <img src="{{ asset('images/ShinSen-FB-Header-Banner-Nov2025-Square-UPDATE.png') }}" alt="ShinSen Campaign Banner" style="margin-top: 15px;">
         </div>
 
         <div class="header">
