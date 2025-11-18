@@ -346,7 +346,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label>อัพโหลดรูปภาพ (น้ำส้ม & ใบเสร็จ) *</label>
+                    <label>อัพโหลดรูปภาพ (น้ำส้ม Shinsen 2 ขวด & ใบเสร็จ) *</label>
                     <div class="file-upload" onclick="document.getElementById('fileInput').click()">
                         <div class="upload-icon">📸</div>
                         <p><strong>คลิกเพื่ออัพโหลดรูปภาพ</strong></p>
